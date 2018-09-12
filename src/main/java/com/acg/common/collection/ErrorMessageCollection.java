@@ -11,7 +11,7 @@ public class ErrorMessageCollection implements Serializable {
 
 	public ErrorMessageCollection() {
 		super();
-		this.errorMessages = new HashMap<>();
+		this.errorMessages = new HashMap<String,ErrorMessageBean>();
 	}
 
 	public void setErrorMessage(String errorMessage, ErrorMessageBean bean) {
